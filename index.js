@@ -12,7 +12,6 @@ if (w1l > w2l) {
     alert(word2 ` is longer`)
 }
 
-
 /*FIRST CHALLENGE - display words compared in alert
 
 if (w1l > w2l) {
@@ -20,9 +19,7 @@ if (w1l > w2l) {
 } else {
     alert(word2+ ` is longer than ` +word1)
 }
-
 */
-
 /*SECOND CHALLENGE - count non space characters and display sentences compared in alert*/
 
 const sentence1 = prompt("enter the first sentence for comaprison");
@@ -30,9 +27,6 @@ const sentence2 = prompt("enter the second sentence for comaprison");
 
 const ws1 = (sentence1.split(' ').length -1);
 const ws2 = (sentence2.split(' ').length -1);
-
-/*next line for debug/check only*/
-console.log(ws1);
 
 let cc1 = sentence1.length - ws1;
 let cc2 = sentence2.length - ws2;
