@@ -7,9 +7,9 @@ const w1l = word1.length;
 const w2l = word2.length;
 
 if (w1l > w2l) {
-    alert(word1 `is longer`)
+    alert(word1 ` is longer`)
 } else {
-    alert(word2 `is longer`)
+    alert(word2 ` is longer`)
 }
 
 
